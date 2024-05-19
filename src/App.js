@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./txt/insonia.ttf";
+// import CompoA from "./Hoc&Propo/CompoA";
+// import HocPropDrilling from "./Hoc&Propo/CompoB";
+// import AB from "./Hoc&Propo/CompoAB_HOC";
+// import FontStyle from "./FontStyle";
+// import PortFolioApp from './PortFolio/PortFolioApp'
+// import FuntonCompo from './FuntonCompo'
+// import { FuntonCompoSecond } from './FuntonCompo'
+// import HooksLearn from './LearnReact/HooksLearn'
+// import UseCustomUse from './LearnReact/UseCustomUse'
+
+// import UseReducerDemo from "./UseReducer/UseReducerDemo";
+// import UseRef from "./UseRef/UseRef";
+// import BarChartDemo from "./BarChart/BarChartDemo";
+// import FormCC from "./FormClsCompo/FormCC";
+import CompoA from './ContextApi/CompoA'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Hello </h1> */}
+      {/* <FuntonCompo />
+      <FuntonCompoSecond />
+      <HooksLearn /> */}
+      {/* <UseCustomUse /> */}
+
+      {/* <PortFolioApp /> */}
+      {/* <CompoA />
+      <HocPropDrilling />
+      <AB />
+      <FontStyle /> */}
+      {/* <UseReducerDemo /> */}
+      {/* <UseRef /> */}
+
+      {/* <BarChartDemo /> */}
+      {/* <FormCC /> */}
+      <CompoA />
     </div>
   );
 }
